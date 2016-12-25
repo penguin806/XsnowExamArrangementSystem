@@ -1,6 +1,6 @@
 // 雪峰排考系统 - Xuefeng.cpp
 // Copyright (c) 雪峰 2016
-// 2016-12-25
+// Date: 2016-12-25
 // Website: www.xsnow.moe
 // E-mail: admin@xsnow.moe
 
@@ -166,7 +166,7 @@ void XFExamSystem::OutputExamSchedule()		// 输出结果
 	{
 		cout << "第" << res->Session << "场" << "\t"
 			<< "考室: " << res->RoomId << "\t"
-			<< "学生姓名: " << res->StudentName << "\t"
+			<< "学生姓名: " << res->StudentName << "\t\t"
 			<< "科目: " << res->CourseName << endl << endl;
 	}
 }
